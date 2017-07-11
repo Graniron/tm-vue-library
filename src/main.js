@@ -8,6 +8,9 @@ import BookForm from './components/BookForm.vue';
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
+// Define global endpoint
+Vue.http.options.root = 'http://localhost:3000/books/';
+
 const router = new VueRouter({
   routes: [
     {path: '/', redirect: '/books'},

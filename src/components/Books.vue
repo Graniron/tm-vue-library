@@ -20,7 +20,7 @@
         },
         // Use lifecycle hook created to get list of books
         created() {
-            this.$http.get('http://localhost:3000/books/')
+            this.$http.get('')
                 .then(({data}) => this.books = data)
                 .catch(error => console.error('Error: ', error))
         }

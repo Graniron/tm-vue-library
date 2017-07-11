@@ -24,6 +24,7 @@ export default {
   }
   nav a {
     color: #fff;
+    margin-right: 15px;
     text-decoration: none;
   }
 </style>
