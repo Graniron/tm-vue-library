@@ -1,12 +1,15 @@
 <template>
-    <div>
-        <h1>Books list</h1>
+    <div class="page-cont">
+        <h2>Books list</h2>
 
-        <ul>
-            <router-link tag="li" :to="'/books/' + book.id" v-for="book in books">
-                <a>{{book.title}}</a>
+        <div class="collection">
+            <router-link tag="a"
+                         class="collection-item"
+                         :to="'/books/' + book.id"
+                         v-for="book in books">
+               {{book.title}}
             </router-link>
-        </ul>
+        </div>
     </div>
 </template>
 

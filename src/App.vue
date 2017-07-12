@@ -21,10 +21,16 @@ export default {
   nav {
     background: darkcyan;
     padding: 10px;
+    text-align: center;
   }
   nav a {
     color: #fff;
     margin-right: 15px;
     text-decoration: none;
+  }
+
+  .page-cont {
+    max-width: 500px;
+    margin: 0 auto;
   }
 </style>

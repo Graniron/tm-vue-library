@@ -1,14 +1,16 @@
 <template>
-    <div>
-        <h1>Book form</h1>
+    <div class="page-cont">
+        <h2>Book form</h2>
 
         <form @submit.prevent="onSubmit">
             <input type="text" placeholder="Title" v-model="book.title">
             <input type="text" placeholder="Author" v-model="book.author">
-            <input type="submit">
+            <button class="waves-effect waves-light btn">Save</button>
         </form>
         <br>
-        <button v-if="bookId" @click="deleteBook">Delete book</button>
+        <button class="waves-effect waves-light btn red"
+                v-if="bookId"
+                @click="deleteBook">Delete book</button>
     </div>
 </template>
 

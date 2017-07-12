@@ -1,6 +1,6 @@
 # tm-vue-library
 
-> Simple books CRUD for demo purposes
+> Simple books CRUD made with Vue.js for demo purposes
 
 ## Build Setup
 
@@ -10,6 +10,9 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
+
+# run json-server with initial data
+npm run server
 
 # build for production with minification
 npm run build
