@@ -16,7 +16,8 @@ export default {
 
 <style>
   body {
-    margin: 0
+    font-family: 'Lobster Two', cursive;
+    margin: 0;
   }
   nav {
     background: darkcyan;
